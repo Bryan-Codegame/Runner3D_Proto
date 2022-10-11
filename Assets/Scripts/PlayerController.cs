@@ -30,6 +30,8 @@ public class PlayerController : MonoBehaviour
     {
         // Check if we're moving to the side 
         var horizontalSpeed = Input.GetAxis("Horizontal") * dodgeSpeed;
-        rb.AddForce(horizontalSpeed, 0, rollSpeed);
+        //rb.AddForce(horizontalSpeed, 0, rollSpeed);
+        rb.velocity = new Vector3(horizontalSpeed, 0, rollSpeed);
+       
     }
 }
