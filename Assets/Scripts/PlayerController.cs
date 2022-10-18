@@ -22,6 +22,7 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody>();
     }
 
+    //Add text to test the branch features.
     /// <summary>
     /// FixedUpdate is called at a fixed framerate and is a prime place to put
     /// Anything based on time.
