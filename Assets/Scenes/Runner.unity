@@ -345,7 +345,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dodgeSpeed: 5
-  rollSpeed: 5.1
+  rollSpeed: 8.41
 --- !u!1001 &956019503
 PrefabInstance:
   m_ObjectHideFlags: 0
