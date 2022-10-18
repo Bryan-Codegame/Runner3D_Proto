@@ -24,10 +24,12 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody>();
     }
 
+
     private void Update()
     {
          //horizontalSpeed = Input.GetAxis("Horizontal") * dodgeSpeed;
     }
+
 
     /// <summary>
     /// FixedUpdate is called at a fixed framerate and is a prime place to put
